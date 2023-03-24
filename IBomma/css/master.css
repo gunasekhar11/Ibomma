@@ -1,0 +1,206 @@
+body{
+   color: #AAA492;
+   background-color:#373737;
+   font-family: "Montserrat";
+}
+
+/* Entry HTML CSS */
+
+.body-entry{
+   text-align: center;
+}
+.entry{
+   padding: 2% 1%;
+   border-radius: 5px;
+   margin-left:27%;
+   margin-right: 27%;
+   margin-top: 12%;
+   margin-bottom: 12%;
+   -webkit-box-shadow: 0px 0px 10px 2px #000;
+}
+.entry:hover{
+   border-color: black;
+}
+.entry-footer{
+   font-size: 12px;
+}
+.entry-button{
+   color:white;
+   background: #6ac045;
+   width: 30%;
+   height: 30px;
+   font-size: 12px;
+   font-weight: 600;
+   margin:0px 10px 15px;
+   padding-bottom: 5%;
+}
+.entry-button:hover{
+   color:white;
+   background: #6ac045;
+   width: 30%;
+   height: 30px;
+   font-size: 12px;
+   font-weight:600;
+   margin:0px 10px 15px;
+   padding-bottom: 5%;
+   border-color: black;
+}
+
+/* Main HTML CSS */
+
+/* navbar */
+.container-fluid{
+   margin-left: 0px;
+}
+.navbar{
+   background-color:;
+   padding:0% 1%;
+}
+.navbar-toggler-icon{
+   background-color:  #6ac045;
+   width: 30px;
+}
+.d-flex{
+   border-radius: 10px;
+}
+.form-control{
+   border-radius: 0px;
+}
+.search-btn{
+   background-color:  #6ac045;
+   border-radius: 0px;
+}
+
+/* Description */
+
+.description{
+   color: #fff;
+   text-align: center;
+   margin: 30px 0px;
+}
+.description-h1{
+   line-height: 2;
+   font-weight: bold;
+}
+
+/* container */
+
+#container{
+   margin: 0% 5%;
+   color: white;
+   align-items:baseline;
+   text-align: center;
+}
+.col-movie{
+   margin: 1% 0%;
+}
+.movie-poster{
+   width: 165px;
+   height: 240px;
+   border-radius: 5px;
+   border: 4px;
+   border-style:double;
+   border-color: grey;
+}
+.movie-poster:hover{
+   width: 166px;
+   height: 240px;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 0px 10px 2px #000;
+}
+.movie-title{
+   font-size: 1rem;
+   font-weight: bold;
+   height: auto;
+   width: auto;
+   margin: 10px auto 5px;
+}
+.movie-year{
+   margin: 0 auto;
+}
+.movie-link{
+   color: white;
+   text-decoration: none;
+}
+.movie-link:hover{
+   color: white;
+   text-decoration: none;
+}
+
+/* Copyright */
+#copyright{
+   background-color:;
+   padding:20px 0px;
+}
+.contact-links{
+   text-decoration: none;
+   font-size: 12px;
+   color: grey;
+   text-align: left;
+   padding-left: 10px;
+}
+.copyright{
+   text-decoration: none;
+   font-size: 12px;
+   color: grey;
+   position: absolute;
+   right:10px;
+}
+.contact-links:hover,.copyright:hover{
+   color: #fff;
+}
+
+/* Detail index */
+#movie-section{
+   text-align: center;
+   color: #fff;
+}
+.movie-div{
+   margin: 2% 3%;
+}
+.movie-poster-main{
+   height: 300px;
+   width: 200px;
+}
+.movie-poster-main:hover{
+   height: 300px;
+   width: 200px;
+}
+.movie-poster-div{
+   text-align: right;
+   padding-right: 50px;
+}
+.download-btn{
+   background-color:#6ac045;
+   color: white;
+   margin: 0px 20px;
+   border-radius: 25px;
+}
+.trailer-btn{
+   background-color: white;
+   margin: 0px 0px;
+   border-radius: 25px;
+}
+.trailer-btn:hover,.download-btn:hover,.back-to-home:hover{
+   background-color: black;
+   color: white;
+}
+.information{
+   text-align: left;
+   padding-top: 30px;
+}
+.embed-movie{
+   margin: 4% 2%;
+}
+.movie-name{
+   margin-top: 0px;
+}
+.movie-information{
+   margin: 1% 10%;
+}
+.back-to-home{
+   background-color: #6ac045;
+   margin: 5%;
+   border-radius: 25px;
+   color: white;
+}
